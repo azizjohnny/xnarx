@@ -88,7 +88,7 @@ export default function Products({ data }) {
     setLoader(true);
     axios
       .get(
-        `${env}product/category/${router?.query?.category}?minPrice=${priceRange.min}&maxPrice=${priceRange.max}&orderType=true&page=${currentPage}&size=15`
+        `http://194.31.52.65:8080/api/product/category/${router?.query?.category}?minPrice=${priceRange.min}&maxPrice=${priceRange.max}&orderType=true&page=${currentPage}&size=15`
       )
       .then((res) => {
         setProducts(res?.data?.object);
