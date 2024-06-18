@@ -11,7 +11,7 @@ import { useEffect } from "react";
 import axios from "axios";
 import { Spinner } from "../Spinner/Spinner";
 
-const env = process.env.NEXT_PUBLIC_TOKEN;
+const env = http://194.31.52.65:8080/api/;
 
 export default function Products({ data }) {
   // const searchParams = useSearchParams();
