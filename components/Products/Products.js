@@ -12,7 +12,7 @@ import axios from "axios";
 import { Spinner } from "../Spinner/Spinner";
 
 const env = process.env.NEXT_PUBLIC_TOKEN;
-console.log(env)
+
 export default function Products({ data }) {
   // const searchParams = useSearchParams();
 
