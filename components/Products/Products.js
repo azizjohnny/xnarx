@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import axios from "axios";
 import { Spinner } from "../Spinner/Spinner";
 import Card from "../Card/Card";
-import { setCategoryId } from "../../redux/siteDataReducer";
+import { setCategoryId } from "../../redux/siteDataReducer"; 
 
 const env = process.env.NEXT_PUBLIC_TOKEN;
 
